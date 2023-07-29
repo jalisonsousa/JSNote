@@ -8,6 +8,7 @@ $content = file_get_contents('notepad.txt');
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta content="minimum-scale=0.8, width=device-width, maximum-scale=0, user-scalable=no" name="viewport">
+      <meta name="description" content="Um bloco de notas simples para usar no computador e copiar texto no celular ou vice-versa, para uso pessoal. ">
       <link rel="icon" href="icon.png" type="image/icon type">
       <link rel="stylesheet" type="text/css" href="css/view-text.css">
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -27,8 +28,8 @@ $content = file_get_contents('notepad.txt');
             </center>
          </div>
          <div class="footer">
-            <a href="https://github.com/JalisonBRs">
-               <img src="https://cdn.discordapp.com/attachments/410233690212401162/1128038777533780060/1689008345978.png" alt="JalisonBR" class="footer-image">
+            <a href="https://github.com/jalisonsousa">
+               <img src="https://cdn.discordapp.com/attachments/410233690212401162/1128038777533780060/1689008345978.png" alt="JalisonSousa" class="footer-image">
             </a>
          </div>
       </main>
