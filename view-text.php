@@ -11,7 +11,7 @@ $content = file_get_contents('notepad.txt');
       <link rel="icon" href="icon.png" type="image/icon type">
       <link rel="stylesheet" type="text/css" href="css/view-text.css">
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-      <script src="https://cdn.jsdelivr.net/gh/JalisonBRs/RemoveBanner/removeBanner2.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removeBanner2.js"></script>
       <title> JSNote Online</title>
    </head>
    <body>
