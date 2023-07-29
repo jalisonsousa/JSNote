@@ -12,7 +12,7 @@ $content = file_get_contents('notepad.txt');
       <link rel="stylesheet" type="text/css" href="css/view-text.css">
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removeBanner2.js"></script>
-      <title> JSNote Online</title>
+      <title> JSNote Online - Texto</title>
    </head>
    <body>
       <main>
