@@ -3,11 +3,11 @@
 $content = file_get_contents('notepad.txt');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
    <head>
       <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta content="minimum-scale=0.8, width=device-width, maximum-scale=0, user-scalable=no" name="viewport">
       <meta name="description" content="Um bloco de notas simples para usar no computador e copiar texto no celular ou vice-versa, para uso pessoal. ">
       <link rel="icon" href="icon.png" type="image/icon type">
       <link rel="stylesheet" type="text/css" href="css/view-text.css">
@@ -39,7 +39,7 @@ $content = file_get_contents('notepad.txt');
       <script src="js/sweetAlert-view-text.js"></script>
       <script>
          function goToFilesPage() {
-            window.location.href = '\\';
+            window.location.href = '\index.html';
          }
       </script>
    </body>
