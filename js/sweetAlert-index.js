@@ -27,3 +27,7 @@ function saveContent() {
       console.error("Erro:", error);
     });
 }
+
+function goToFilesPage() {
+  window.location.href = "view-text.php";
+}
