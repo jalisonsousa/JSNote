@@ -29,14 +29,11 @@ $content = file_get_contents('notepad.txt');
             </div>
             <div class="footer">
                 <a href="https://github.com/jalisonsousa">
-                    <img src="https://cdn.discordapp.com/attachments/410233690212401162/1128038777533780060/1689008345978.png"
+                    <img src="\imagens/footerNoBack.png"
                         alt="JalisonSousa" class="footer-image">
                 </a>
             </div>
         </main>
-        <div id="particles-js"></div>
-        <script src="js/particles.min.js"></script>
-        <script src="js/app.js"></script>
         <script src="js/sweetAlert-view-text.js"></script>
         <script>
         function goToFilesPage() {
