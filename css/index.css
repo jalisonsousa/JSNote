@@ -11,15 +11,30 @@ h1 {
   margin-bottom: 20px;
 }
 
-textarea {
-  width: 400px;
+#content {
+  width: 100%;
+  max-width: 400px;
   height: 300px;
-  padding: 10px;
-  font-size: 14px;
+  padding: 2%;
+  font-size: 1em;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box; /* Para incluir padding e border na largura */
 }
 
+/* Regra de mídia para telas menores */
+@media (max-width: 768px) {
+  #content {
+    font-size: 0.9em;
+  }
+}
+
+/* Regra de mídia para telas ainda menores */
+@media (max-width: 480px) {
+  #content {
+    font-size: 0.8em;
+  }
+}
 
 .button {
   margin-top: 10px;
@@ -48,12 +63,4 @@ textarea {
   cursor: pointer;
   object-fit: cover;
   border: none;
-}
-
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  z-index: -1;
 }
