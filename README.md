@@ -1,4 +1,4 @@
-# JSNote
+ JSNote
 # bloco de notas simples para uso pessoal usando ChatGPT 
 
 *digita o texto
