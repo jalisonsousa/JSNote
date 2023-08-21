@@ -1,5 +1,5 @@
  JSNote
-# bloco de notas simples para uso pessoal usando ChatGPT 
+# bloco de notas simples
 
 * digita o texto
 * salva no servidor gerando um "notepad.txt"</br>
