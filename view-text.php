@@ -1,5 +1,4 @@
 <?php
-// Ler o conteúdo do arquivo de notas
 $content = file_get_contents('notepad.txt');
 ?>
 <!DOCTYPE html>
@@ -29,7 +28,7 @@ $content = file_get_contents('notepad.txt');
             </div>
             <div class="footer">
                 <a href="https://github.com/jalisonsousa">
-                    <img src="\imagens/footerNoBack.png"
+                    <img src="https://cdn.discordapp.com/attachments/410233690212401162/1128038777533780060/1689008345978.png"
                         alt="JalisonSousa" class="footer-image">
                 </a>
             </div>
