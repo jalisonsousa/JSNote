@@ -23,7 +23,7 @@ $content = file_get_contents('notepad.txt');
                         <pre id="preview" style="font-size: 18px;"><?php echo htmlentities($content); ?></pre>
                     </div>
                     <button id="copyButton" class="button">Copiar texto</button>
-                    <button onclick="goToFilesPage()" class="button">Voltar para a Página Inicial</button>
+                    <button onclick="goToFilesPage()" class="button">Voltar Página Inicial</button>
                 </center>
             </div>
             <div class="footer">
