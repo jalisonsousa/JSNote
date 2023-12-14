@@ -11,7 +11,7 @@ $content = file_get_contents('notepad.txt');
         <link rel="icon" href="icon.png" type="image/icon type">
         <link rel="stylesheet" type="text/css" href="css/view-text.css">
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removeBanner2.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removebanner.js"></script>
         <title> JSNote Online - Texto</title>
     </head>
     <body>
@@ -28,7 +28,7 @@ $content = file_get_contents('notepad.txt');
             </div>
             <div class="footer">
                 <a href="https://github.com/jalisonsousa">
-                    <img src="https://cdn.discordapp.com/attachments/410233690212401162/1128038777533780060/1689008345978.png"
+                    <img src="https://jalisonbr.com/img/jalisonbrLogo.jpg"
                         alt="JalisonSousa" class="footer-image">
                 </a>
             </div>
